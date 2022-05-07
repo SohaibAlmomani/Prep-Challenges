@@ -58,6 +58,8 @@ function square(arr) {
 
 function fullName(arr) {
     // write your code here
+    let fullName = arr.map((arr) => `${arr.firstName} ${arr.lastName}`);
+    return fullName;
 }
 // -------------------------------------------------------------------------------------------------------
 
