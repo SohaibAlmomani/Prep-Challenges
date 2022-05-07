@@ -41,6 +41,9 @@ const arrInc = (arr) => {
 // 
 const roundDecimals = (arr) => {
     // write your code here
+    let roundedArr = [];
+    arr.forEach((ele) => roundedArr.push(Math.round(ele)));
+    return roundedArr;
 }
 // -------------------------------------------------------------------------------------------------------
 
